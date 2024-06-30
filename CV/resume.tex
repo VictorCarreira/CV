@@ -1,44 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Twenty One Seconds Resume/CV
-% LaTeX Template
-% Version 1.2 (2024/06/26)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-%
-% License
-% Original author:
-% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
-% Alessandro Trinca Tornidor (alessandro at trinca dot tornidor dot com)
-%% Copyright 2022-now Alessandro Trinca Tornidor (alessandro at trinca dot tornidor dot com)
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License, either version 1.3
-% of this license or (at your option) any later version.
-% The latest version of this license is in
-%   http://www.latex-project.org/lppl.txt
-% and version 1.3 or later is part of all distributions of LaTeX
-% version 2005/12/01 or later.
-%
-% This work has the LPPL maintenance status `maintained'.
-% 
-% The Current Maintainer of this work is Alessandro Trinca Tornidor
-%
-% This work consists of the files template.tex and twentyonesecondcv.cls
-% and the derived file twentyonesecondcv.pdf
-%
-% see https://github.com/trincadev/cv-latex-twentyoneseconds/ for updates
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass[letterpaper]{twentyonesecondcv} % a4paper for A4
-
-\profilepic{image.png} % Profile picture
+\usepackage[english,brazil]{babel}
+\profilepic{perfil.jpg} % Profile picture
 \cvjobtitle{Job Description and Career} % Job title/career
-\cvname{Name Surname} % Your name
+\cvname{Victor Carreira} % Your name
 
 %% Mandatory informations used by \makeinfoprofile. To hide these fields leave the contents of the macro empty (e.g. '\cvsitepersonal{}' instead than '\cvsitepersonal{en.wikipedia.org}')
 %% See https://tex.stackexchange.com/a/692525/109031
@@ -86,30 +50,30 @@
     \end{itemize}
     
     \section{Education}
-    
-    \begin{twenty}
-      \twentyitem
-        {1990 - 1995}
-        {Ph.D. {\normalfont candidate in Computer Science}}
-        {University three}
-        {Aenean vitae faucibus dolor. Donec leo dui, varius vel pharetra sit amet, aliquet tincidunt purus. Vivamus nulla enim, facilisis vel mi eget, elementum tincidunt felis. In id nibh sit amet lorem mollis congue. Quisque sit amet sagittis tortor. Sed elementum ornare nunc, gravida porta dui lobortis id. Aenean ullamcorper blandit porta. Morbi in urna pharetra, facilisis quam eu, condimentum mauris. Fusce eleifend purus ligula. Praesent sollicitudin, mauris ut lobortis tristique, mi tortor efficitur dolor, id cursus massa massa at lacus. Etiam eu sapien condimentum, cursus velit non, viverra felis. Etiam sagittis nec. Praesent id tincidunt quam. Morbi pharetra, lorem non faucibus vestibulum. Ut non nulla pellentesque, vestibulum lorem in, vehicula velit.}
-      \twentyitem
-        {1980}
-        {M.Sc. magna cum laude}
-        {University two}
-        {Majoring in Computer Science. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra in est id scelerisque. Vestibulum id dolor tellus. Nulla quis magna nunc. Suspendisse non ex vel quam tincidunt tincidunt a bibendum erat. Proin convallis, diam quis egestas faucibus, arcu ipsum sagittis lacus, non lobortis nibh turpis eget odio. Nullam porta neque lorem, at tincidunt lectus pharetra eget.}
-      \twentyitem
-        {1970-1976}
-        {B.Sc. magna cum laude}
-        {University one}
-        {Majoring in Computer Science... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla, eleifend diam vel, ultricies mauris. Nunc interdum diam vel magna egestas posuere. Mauris sodales urna vitae neque imperdiet tempus. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla, eleifend diam vel, ultricies mauris. Nunc interdum diam vel magna egestas posuere. Mauris sodales urna vitae neque imperdiet tempus. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla.}
-      \twentyitem
-        {1955 - 1060}
-        {High school}
-        {Hhigh School}
-        {Specializing in mathematics and physics.}
-    \end{twenty}
-    
+
+\begin{twenty}
+    \twentyitem
+        {2017 - 2021}
+        {Doutorado em Geofísica}
+        {Observatório Nacional, ON, Brasil}
+        {Título: Inteligência Artificial aplicada ao reconhecimento de padrões litológicos. Orientador: Cosme Ferreira da Ponte Neto. Coorientador: Rodrigo Bijani Santos. Bolsista da Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ, FAPERJ, Brasil.}
+    \twentyitem
+        {2013 - 2015}
+        {Mestrado em Geofísica}
+        {Observatório Nacional, ON, Brasil}
+        {Título: Contribuição para o entendimento das estruturas geológicas da Bacia do Paraná utilizando métodos potenciais. Orientador: Emanuele Francesco La Terra. Coorientador: Sergio Luiz Fontes. Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. Palavras-chave: Métodos Potenciais. Grande área: Ciências Exatas e da Terra. Setores de atividade: Atividades de Apoio à Extração de Minerais.}
+    \twentyitem
+        {2007 - 2012}
+        {Graduação em Geologia}
+        {Universidade Federal do Rio de Janeiro, UFRJ, Brasil}
+        {Título: O GÁS DE FOLHELHO: UMA NOVA FRONTEIRA. Orientador: José Mário Coelho. Bolsista da Fundação coordenação de projetos, pesquisa e estudos tecnológicos, COPPETEC, Brasil.}
+    \twentyitem
+        {2002 - 2004}
+        {Curso técnico/profissionalizante}
+        {Centro Federal de Educação Tecnológica de Química, CEFETEQ, Brasil}
+        {} % No description provided in the .md file 
+\end{twenty}
+
     \section{Other Education and certifications}
     
     \begin{twentymid} % Environment for a list with descriptions  
