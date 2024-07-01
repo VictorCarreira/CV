@@ -1,6 +1,3 @@
-Here's a README file for your project that includes information on the template, the Lattes data, and how to use the files:
-
-```markdown
 # Lattes CV to LaTeX Resume Converter
 
 This project converts a Lattes CV (Brazilian academic curriculum) into a formatted LaTeX resume using the "Twenty One Seconds Resume/CV" template.
@@ -43,5 +40,4 @@ This project converts a Lattes CV (Brazilian academic curriculum) into a formatt
 
 * The "Twenty One Seconds Resume/CV" template is originally from [LaTeXTemplates.com](http://www.LaTeXTemplates.com) and maintained by Alessandro Trinca Tornidor. 
 * The Lattes CV data belongs to Victor Ribeiro Carreira. 
-```
 
