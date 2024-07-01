@@ -1,36 +1,37 @@
 \documentclass[letterpaper]{twentyonesecondcv} % a4paper for A4
 \usepackage[english,brazil]{babel}
+\usepackage{url}
 \profilepic{perfil.jpg} % Profile picture
-\cvjobtitle{Job Description and Career} % Job title/career
+\cvjobtitle{Trabalho e Carreira} % Job title/career
 \cvname{Victor Carreira} % Your name
 
 %% Mandatory informations used by \makeinfoprofile. To hide these fields leave the contents of the macro empty (e.g. '\cvsitepersonal{}' instead than '\cvsitepersonal{en.wikipedia.org}')
 %% See https://tex.stackexchange.com/a/692525/109031
-\cvbirthdate{15 August 1980}
-\cvnumberphone{+01 2345678901}
-\cvaddressurl{www.google.com/maps/place/Roma+RM/@41.9099533,12.371191,11z/}
-\cvaddress{Address, Nation}        % Short address/location, use \newline if more than 1 line is required
-\cvsitepersonal{www.example.com}       % personal site
-\cvstackoverflow{9999999999876}
-\cvlinkedin{name-surname-linkedin}
+\cvbirthdate{13 de Dezembro de 1984}
+\cvnumberphone{+55 (21)998288484}
+\cvaddressurl{https://maps.app.goo.gl/SyUn58bekAuLpxys5} 
+\cvaddress{Av. Gal. Milton Tavares de Souza, s/n - São Domingos, Niterói - RJ, 24210-310} % Short address/location, use \newline if more than 1 line is required
+\cvsitepersonal{carreiras.netlify.com}       % personal site
+\cvstackoverflow{Victor Carreira - 11963659}
+\cvlinkedin{Victor Carreira}
 \cvskypeurlbase{join.skype.com/invite/id-random-skype-invite} % Skype 
-\cvskypeurl{name-surname-skype}
-\cvgithub{name-surname-github}     
-\cvmail{name@surname.com}
+\cvskypeurl{Victor Ribeiro Carreira}
+\cvgithub{Victor Carreira}     
+\cvmail{victorcarreira@id.uff.br}
 
 \textfootersidenote{A side footer text that appears on two pages...}{on two rows.}
 
-\pagenumber{...Page}{of}
+\pagenumber{...Page}{of 2}
 
 \begin{document}
 \sidesection{
     \makeheaderprofile
     % \makeheaderprofilenoimg
     \makeinfoprofile
-    \aboutme{Short section about myself.}
-    \customsidesection{Header profile section}{It's possible to hide the profile picture using \textbackslash\texttt{makeheaderprofilenoimg} instead than \textbackslash\texttt{makeheaderprofile} (you could remove  \textbackslash\texttt{profilepic\{image.png\}} then).}
-    \customsidesection{Info profile section}{The command \textbackslash\texttt{makeinfoprofile} doesn't use empty macros \textbackslash\texttt{cvsite*\{\}} (e.g. \textbackslash\texttt{cvsitepersonal\{\}} instead than \textbackslash\texttt{cvsitepersonal\{example.com\}}).}
-    \customsidesection{About the info profile commands}{If not empty the \textbackslash\texttt{cvaddressurl\{\}} command create a custom hyperlink containing the \textbackslash\texttt{cvaddress\{Address, Nation\}} text. Same for \textbackslash\texttt{cvskypeurlbase\{join.skype.com/...\}} and \textbackslash\texttt{cvskypeurl\{skype-username\}} (visit \colorhrefcustom{https://support.skype.com/en/faq/FA34802/}{skype FAQs}) to create an invite url.}
+    \aboutme{Pesquisador que trabalha com computação científica, modelagem e ciência de dados. Geologia (2012). Mestrado (2015) métodos potenciais e magnetotelúrico. Doutorado (2021) IA / metaheurística.}
+   % \customsidesection{Header profile section}{It's possible to hide the profile picture using \textbackslash\texttt{makeheaderprofilenoimg} instead than \textbackslash\texttt{makeheaderprofile} (you could remove  \textbackslash\texttt{profilepic\{image.png\}} then).}
+   % \customsidesection{Info profile section}{The command \textbackslash\texttt{makeinfoprofile} doesn't use empty macros \textbackslash\texttt{cvsite*\{\}} (e.g. \textbackslash\texttt{cvsitepersonal\{\}} instead than \textbackslash\texttt{cvsitepersonal\{example.com\}}).}
+   % \customsidesection{About the info profile commands}{If not empty the \textbackslash\texttt{cvaddressurl\{\}} command create a custom hyperlink containing the \textbackslash\texttt{cvaddress\{Address, Nation\}} text. Same for \textbackslash\texttt{cvskypeurlbase\{join.skype.com/...\}} and \textbackslash\texttt{cvskypeurl\{skype-username\}} (visit \colorhrefcustom{https://support.skype.com/en/faq/FA34802/}{skype FAQs}) to create an invite url.}
     
     \makefootersidenodevfill
     
@@ -39,17 +40,24 @@
 % for some reason it's impossible to have a new line here...
 \mainsection{
     
-    \section{Bibliography}
-
-    Three different commands:
-
-    \begin{itemize}
-      \item A \textbf{bold word} made with the \textbackslash\texttt{textbf\{\}}
-      \item A \graytext{gray phrase} made with the \textbackslash\texttt{graytext\{\}} command instead than overriding \textbackslash\texttt{bfseries} like before
-      \item A \textcolor{red}{red phrase} made with the \textbackslash\texttt{textcolor\{\}\{\}} command (the first argument is the color, the second one is the text).
-    \end{itemize}
+    \section{Resumo Bibiográfico}
+		Atualmente trabalha como pesquisador de pós-doutorado na Universidade Federal
+		Fluminense integrando a equipe do projeto Ressurgência. Possui doutorado em Geofísica
+		pelo Observatório Nacional, na área de geofísica aplicada à Geofísica de Exploração com
+		ênfase em meta-heurística e métodos de inteligência artificial aplicados à dados de
+		perfilagem geofísica, em Bacias Sedimentares (2021).Mestrado em Geofísica pelo
+		Observatório Nacional na área de Métodos Potencias e Eletromagnéticos (2015) com experiência em
+		levantamentos de campo na área de geofísicos e graduação em Geologia pela Universidade Federal do Rio de Janeiro (2012). Em sua
+		graduação, trabalhou como estagiário (bolsista COPPETEC), no projeto "Aplicação da
+		Bioestratigrafia da Radiolários ao Refinamento Estratigráfico do Cretáceo e Paleógeno nas
+		Bacias Brasileiras", financiado pelo BPA/Cenpes/Petrobras/ e vinculado ao LAFO - UFRJ.
+		Em seu mestrado, desenvolveu estudos relativos ao embasamento da Bacia do Paraná e a
+		Bacia Sedimentar correlata através do uso de Métodos Potenciais e Magnetotelúrico. Em
+		seu doutorado, desenvolveu uma nova metodologia aplicadas à área de Inteligência
+		Artificial para reconhecimento de padrões litológicos e um novo modelo gerador de
+		pseudo-poços baseados em seções geológicas e sísmica 2D.
     
-    \section{Education}
+    \section{Histórico Educacional}
 
 \begin{twenty}
     \twentyitem
@@ -74,24 +82,31 @@
         {} % No description provided in the .md file 
 \end{twenty}
 
-    \section{Other Education and certifications}
+    \section{Certificações}
     
-    \begin{twentymid} % Environment for a list with descriptions  
-        \twentymiditem{since 2020}{I learned some interesting things on this \colorhrefcustom{https://wikipedia.it}{website}, then I moved on.}{Org}
-        \twentymiditem{10/2015}{I added some fancy pages on \colorhref{wikipedia.org}}{Org 2}
-        \twentymiditem{1990 - 2015}{Second list element. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla.}{Organization name}
-        \twentymiditem{12/1998}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla}{\colorhrefcustom{https://commons.wikimedia.org/wiki/Main_Page}{wikipedia}}
+    \begin{twentymid} % Environment for a list with descriptions 
+	\twentymiditem{2017}{Métodos numéricos e programação científica com o uso do FORTRAN 95 (120h)}{UFRGS, RS, Brasil}    
+        \twentymiditem{2013}{Mapeamento e processamento com o geosoftware (30h)}{Observatório Nacional, ON, Brasil}  
+        \twentymiditem{2012}{Ground Penetrating Radar (GPR). Teoria e prática com levantamento de campo (30h)}{USP, SP, Brasil} 
+        %\twentymiditem{since 2020}{I learned some interesting things on this \colorhrefcustom{https://wikipedia.it}{website}, then I moved on.}{Org}
+        %\twentymiditem{10/2015}{I added some fancy pages on \colorhref{wikipedia.org}}{Org 2}
+        %\twentymiditem{1990 - 2015}{Second list element. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla.}{Organization name}
+	%\twentymiditem{12/1998}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla}{\colorhrefcustom{https://commons.wikimedia.org/wiki/Main_Page}{wikipedia}}
     \end{twentymid}
     
-    \section{Awards}
+    \section{Premiações, menções honrosas}
     
     \begin{twentyshort}
       \twentyitemshort
-        {1987}
-        {Some Fantasy Novel.}
+        {2011}
+        {Fundação da Empresa Júnior de Geologia da UFRJ Xisto Jr.}
       \twentyitemshort
-        {1998}
-        {Some Essay.}
+        {2015}
+	    {O papel do geólogo no século XXI - mesa redonda, UFRJ. (menção honrosa)}
+      \twentyitemshort
+	    {2023}
+	    {Prêmio PETROBRAS de inovação - SOFTWARE achillesBR}
+
     \end{twentyshort}
 
 %% end main section
