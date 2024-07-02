@@ -8,6 +8,8 @@ aspell check -l pt resume.tex
 
 pdflatex resume.tex
 
+pdflatex resume.tex
+
 okular resume.pdf
 
 # Corretor ortográfico no vim:
