@@ -235,7 +235,7 @@
 }
 
 \newcommand{\aboutme}[1]{
-    \profilesection{About me}
+    \profilesection{Sobre mim}
     \begin{flushleft}
         #1
     \end{flushleft}
