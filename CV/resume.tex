@@ -19,9 +19,9 @@
 \cvgithub{Victor Carreira}     
 \cvmail{victorcarreira@id.uff.br}
 
-\textfootersidenote{A side footer text that appears on two pages...}{on two rows.}
+\textfootersidenote{CVRRICVLVM VITAE}{Victor Carreira} % The text in the footer of the first page
 
-\pagenumber{...Page}{of 2}
+\pagenumber{...Página}{of 2}
 
 \begin{document}
 \sidesection{
@@ -118,27 +118,16 @@
 % \noindent
 \sidesection{
     \makeheaderprofilenoimg
-    \customsidesection{Side footer}{Now there are three commands to populate the side footer:
-
-    \begin{itemize}
-      \item \textbackslash\texttt{makefooterprofile}, the old way to create a custom side footer (it takes two mandatory arguments)
-      \item \textbackslash\texttt{makefootersidenode}, useful for creating the same footer on all existing pages
-      \item \textbackslash\texttt{makefootersidenodevfill}
-    \end{itemize}
-
-    Use the commands \textbackslash\texttt{pagenumber}\{\}\{\} and \textbackslash\texttt{textfootersidenote}\{\}\{\} to add the page number (e.g. "Page 2 of 2") and the side footer text.
-    }
-
-    \customsidesection{Progress bar skill sections}{The command \textbackslash\texttt{customskills\{Section title\}\{\{\},\{\},\{\}\}\{\}} take three argument (the last one is optional). The first argument is the section title, e.g. \texttt{Languages}. The second macro argument is an array of couples made by words and float numbers separated by slashes, e.g. \texttt{\{\{Latin/4.3\},\{Greek/6\}\}}; the number of course represents how much the skill ability is high. This array separator is a comma. Note that the array order is reversed: in the output list created by the example above has the word "Greek" before "Latin".}
-    
+    %\makeinfoprofile
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%Skill bar section, each skill must have a value between 0 an 6 (float)%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \customskills{Languages skill}{{Latin/4},{Greek/6}}{}
+    \customskills{Linguagem estrangeira }{{Inglês/9},{Latim/5},{Espanhol/3},{Francês/2},{Polonês/1}}{}
 
-    \customskills{Card games}{{Black Jack/5},{Freecell/2},{Spider/3}}{Scale: 0 (basic skills) - 6 (expert).}
+    \customskills{Linguagem de programação}{{FORTRAN/7},{Python/7},{Matlab e Octave/5},{SQL/4}, {Markdown/5}, {Git/7}, {TeX/7}, {ShellScript/4},{Julia/0},{C++/1},{HTML/2}}{Escala: acima da metade da barra de habilidades (Experiente)}
+
     
-    \makefooterprofile{Alternative footer note (only on page two), row one.}{Alt. footer note (row two)...}
+    %\makefooterprofile{Alternative footer note (only on page two), row one.}{Alt. footer note (row two)...}
     
     \makefootersidenode
     
@@ -147,40 +136,63 @@
 % for some reason there is no way to have a new line here...
 \mainsection{
     
-    \section{Experiences}
+    \section{Experiências de trabalho}
     
     \begin{twenty}
       \twentyitem
-        {since 2019}
-        {My last work experience}
-        {Work company}
-        {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla, eleifend diam vel, ultricies mauris. Nunc interdum diam vel magna egestas posuere. Mauris sodales urna vitae neque imperdiet tempus. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla, eleifend diam vel, ultricies mauris. Nunc interdum diam vel magna egestas posuere. Mauris sodales urna vitae neque imperdiet tempus. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla.}
-      \twentyitem
-        {1993}
-        {Other side work.}
-        {ACME Corp.}
-        {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla.}
+        {Desde 2023}
+        {Minha atual posição}
+        {Universidade Federal Fluminense, UFF, Brasil}
+        {Pesquisador de pós-doutorado no projeto Ressurgência fase IV. Desenvolvimento de metodologias e rotinas de programação na determinação de valores de conteúdo orgânico total em paleoambientes lacustres do Cretáceo. }
+        \twentyitem
+        {2022-2023}
+        {Última posição}
+        {Universidade Federal Fluminense, UFF, Brasil}
+        {Pesquisador de pós-doutorado no projeto Ressurgência fase III. Desenvolvimento de Software para a determinação de valores de conteúdo orgânico total em ambientes e paleoambientes marinhos.}
     \twentyitem
-        {07/1993}
-        {Side work.}
-        {ACME Corp.}
-        {Nunc interdum diam vel magna egestas posuere. Mauris sodales urna vitae neque imperdiet tempus. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla, eleifend diam vel, ultricies mauris. Nunc interdum diam vel magna egestas posuere. Mauris sodales urna vitae neque imperdiet tempus. Nunc rhoncus a nunc ac varius. Integer condimentum sit amet dui sed fringilla.}
+        {2017-2021}
+        {Posição Passada}
+        {Observatório Nacional, ON, Brasil}
+        {Doutorado em Geofísica. Desenvolvimento de uma nova metodologia aplicadas à área de Inteligência Artificial para reconhecimento de padrões litológicos e um novo modelo gerador de pseudo-poços baseados em seções geológicas e sísmica 2D.}
     \twentyitem
-        {1981}
-        {My first work experience.}
-        {Convenience Store}
-        {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit a nisi nec fermentum. Praesent sed leo fringilla, eleifend diam vel, ultricies mauris.}
+        {2013-2015}
+        {Posição Passada}
+        {Observatório Nacional, ON, Brasil}
+        {Mestrado em Geofísica. Contribuição para a discretização de estruturas geológicas do embasamento de bacias sedimentares cratônicas utilizando métodos potenciais e magnetotelúricos. Aquisição de dados de campo e processamento de dados.}    
+        \twentyitem
+        {2007-2012}
+        {Posição Passada}
+        {Universidade Federal do Rio de Janeiro, UFRJ, Brasil}
+        {Graduação em Geologia. Estágio no projeto "Aplicação da Bioestratigrafia da Radiolários ao Refinamento Estratigráfico do Cretáceo e Paleógeno nas Bacias Brasileiras", financiado pelo BPA/Cenpes/Petrobras/ e vinculado ao LAFO - UFRJ. E fundação da empresa Júnior de Geologia Xisto Jr.}
+        \twentyitem
+        {2005-2007}
+        {Posição Passada}
+        {TECMA, Brasil}
+        {Empresa de consultoria química e ambiental. Análise química instrumental de água e solo por abosorção atômica e cromatografia gasosa e líquida de amostras de solo e água.}
+        \twentyitem
+        {2004-2005}
+        {Posição Passada}
+        {Analytical Solutions, Brasil}
+        {Estágio técnico em amostragem e análise química instrumental de água e de solo por abosorção atômica e por cromatografia gasosa e líquida de amostras de solo e água.}
+        \twentyitem
+        {2002-2003}
+        {Posição Passada}
+        {Escola Técnica Federal de Química - CEFETEQ, Brasil}
+        {Curso técnico em Química Ambiental.}
     \end{twenty}
     
-    \section{Other informations}
     
-    Other information section. In sed ligula a turpis tristique interdum a ut risus. Nullam at euismod leo, ac molestie urna. Curabitur enim felis, ultricies quis dui ac, bibendum auctor dui. Proin aliquet nulla arcu, at pulvinar eros eleifend at. Aliquam erat volutpat. Duis augue mauris, aliquam sit amet lacinia ut, egestas sit amet est. Aliquam erat lacus, scelerisque non laoreet eu, commodo eget turpis. Nunc nunc mauris, lacinia sed semper quis, venenatis eget enim. Proin viverra in nibh at tincidunt.
     
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod id nisi nec dapibus. Nunc sed cursus nisi, in feugiat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent dictum vehicula est non dapibus. Praesent id tincidunt quam. Morbi pharetra, lorem non faucibus vestibulum, turpis eros blandit felis, at mollis diam metus in elit. In venenatis pharetra leo vel elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nulla pellentesque, vestibulum lorem in, vehicula velit. Integer vitae fringilla ipsum. Donec vel pretium libero.
-    
-    In sed ligula a turpis tristique interdum a ut risus. Nullam at euismod leo, ac molestie urna. Curabitur enim felis, ultricies quis dui ac, bibendum auctor dui. Proin aliquet nulla arcu, at pulvinar eros eleifend at. Aliquam erat volutpat. Duis augue mauris, aliquam sit amet lacinia ut, egestas sit amet est. Aliquam erat lacus, scelerisque non laoreet eu, commodo eget turpis. Nunc nunc mauris, lacinia sed semper quis, venenatis eget enim. Proin viverra in nibh at tincidunt.
-    
-    Integer molestie, lectus in vehicula consequat, mauris nisi dignissim lacus, et vestibulum ante nisl eu ante. In laoreet eros sit amet justo tempor maximus. Cras quam velit, feugiat vel risus vitae, tincidunt elementum.
 
+%\section{Other informations}
+    
+%    Other information section. In sed ligula a turpis tristique interdum a ut risus. Nullam at euismod leo, ac molestie urna. Curabitur enim felis, ultricies quis dui ac, bibendum auctor dui. Proin aliquet nulla arcu, at pulvinar eros eleifend at. Aliquam erat volutpat. Duis augue mauris, aliquam sit amet lacinia ut, egestas sit amet est. Aliquam erat lacus, scelerisque non laoreet eu, commodo eget turpis. Nunc nunc mauris, lacinia sed semper quis, venenatis eget enim. Proin viverra in nibh at tincidunt.
+%    
+%    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod id nisi nec dapibus. Nunc sed cursus nisi, in feugiat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent dictum vehicula est non dapibus. Praesent id tincidunt quam. Morbi pharetra, lorem non faucibus vestibulum, turpis eros blandit felis, at mollis diam metus in elit. In venenatis pharetra leo vel elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nulla pellentesque, vestibulum lorem in, vehicula velit. Integer vitae fringilla ipsum. Donec vel pretium libero.
+%    
+%    In sed ligula a turpis tristique interdum a ut risus. Nullam at euismod leo, ac molestie urna. Curabitur enim felis, ultricies quis dui ac, bibendum auctor dui. Proin aliquet nulla arcu, at pulvinar eros eleifend at. Aliquam erat volutpat. Duis augue mauris, aliquam sit amet lacinia ut, egestas sit amet est. Aliquam erat lacus, scelerisque non laoreet eu, commodo eget turpis. Nunc nunc mauris, lacinia sed semper quis, venenatis eget enim. Proin viverra in nibh at tincidunt.
+%    
+%    Integer molestie, lectus in vehicula consequat, mauris nisi dignissim lacus, et vestibulum ante nisl eu ante. In laoreet eros sit amet justo tempor maximus. Cras quam velit, feugiat vel risus vitae, tincidunt elementum.
+%
 }
 \end{document}
